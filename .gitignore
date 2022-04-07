@@ -1,7 +1,5 @@
-# This .gitignore file should be placed at the root of your Unity project directory
-#
-# Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
-#
+# This .gitignore file should be placed at the root of the Unity project directory
+# Get the latest version from https://github.com/github/gitignore/blob/master/Unity.gitignore
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -58,3 +56,27 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
